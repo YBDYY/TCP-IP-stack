@@ -1,0 +1,3 @@
+/home/deividas/tcp_ip_stack/CMakeFiles/TCP_IP_STACK.dir
+/home/deividas/tcp_ip_stack/CMakeFiles/edit_cache.dir
+/home/deividas/tcp_ip_stack/CMakeFiles/rebuild_cache.dir
