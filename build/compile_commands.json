@@ -1,13 +1,19 @@
 [
 {
   "directory": "/home/deividas/tcp_ip_stack/build",
-  "command": "/usr/bin/g++  -I/home/deividas/tcp_ip_stack/include -g -std=gnu++11 -o CMakeFiles/TCP_IP_STACK.dir/src/main.cpp.o -c /home/deividas/tcp_ip_stack/src/main.cpp",
+  "command": "/usr/bin/g++  -I/home/deividas/tcp_ip_stack/include -g -o CMakeFiles/TCP_IP_STACK.dir/src/main.cpp.o -c /home/deividas/tcp_ip_stack/src/main.cpp",
   "file": "/home/deividas/tcp_ip_stack/src/main.cpp",
   "output": "CMakeFiles/TCP_IP_STACK.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/deividas/tcp_ip_stack/build",
-  "command": "/usr/bin/g++  -I/home/deividas/tcp_ip_stack/include -g -std=gnu++11 -o CMakeFiles/TCP_IP_STACK.dir/src/EthernetLayer.cpp.o -c /home/deividas/tcp_ip_stack/src/EthernetLayer.cpp",
+  "command": "/usr/bin/g++  -I/home/deividas/tcp_ip_stack/include -g -o CMakeFiles/TCP_IP_STACK.dir/src/ipheader.cpp.o -c /home/deividas/tcp_ip_stack/src/ipheader.cpp",
+  "file": "/home/deividas/tcp_ip_stack/src/ipheader.cpp",
+  "output": "CMakeFiles/TCP_IP_STACK.dir/src/ipheader.cpp.o"
+},
+{
+  "directory": "/home/deividas/tcp_ip_stack/build",
+  "command": "/usr/bin/g++  -I/home/deividas/tcp_ip_stack/include -g -o CMakeFiles/TCP_IP_STACK.dir/src/EthernetLayer.cpp.o -c /home/deividas/tcp_ip_stack/src/EthernetLayer.cpp",
   "file": "/home/deividas/tcp_ip_stack/src/EthernetLayer.cpp",
   "output": "CMakeFiles/TCP_IP_STACK.dir/src/EthernetLayer.cpp.o"
 }

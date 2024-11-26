@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -I/home/deividas/tcp_ip_stack/include
 
-CXX_FLAGS = -g -std=gnu++11
+CXX_FLAGS = -g
 

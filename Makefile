@@ -153,6 +153,30 @@ src/EthernetLayer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_IP_STACK.dir/build.make CMakeFiles/TCP_IP_STACK.dir/src/EthernetLayer.cpp.s
 .PHONY : src/EthernetLayer.cpp.s
 
+src/ipheader.o: src/ipheader.cpp.o
+.PHONY : src/ipheader.o
+
+# target to build an object file
+src/ipheader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_IP_STACK.dir/build.make CMakeFiles/TCP_IP_STACK.dir/src/ipheader.cpp.o
+.PHONY : src/ipheader.cpp.o
+
+src/ipheader.i: src/ipheader.cpp.i
+.PHONY : src/ipheader.i
+
+# target to preprocess a source file
+src/ipheader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_IP_STACK.dir/build.make CMakeFiles/TCP_IP_STACK.dir/src/ipheader.cpp.i
+.PHONY : src/ipheader.cpp.i
+
+src/ipheader.s: src/ipheader.cpp.s
+.PHONY : src/ipheader.s
+
+# target to generate assembly for a file
+src/ipheader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_IP_STACK.dir/build.make CMakeFiles/TCP_IP_STACK.dir/src/ipheader.cpp.s
+.PHONY : src/ipheader.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -189,6 +213,9 @@ help:
 	@echo "... src/EthernetLayer.o"
 	@echo "... src/EthernetLayer.i"
 	@echo "... src/EthernetLayer.s"
+	@echo "... src/ipheader.o"
+	@echo "... src/ipheader.i"
+	@echo "... src/ipheader.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

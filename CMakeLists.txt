@@ -1,19 +1,25 @@
 cmake_minimum_required(VERSION 3.10)
+
+# Project name
 project(TCP_IP_STACK)
 
-
-# set the C++ standard
-set(CMAKE_CXX_STANDARD 11)
-
-
-# Add the source directory
-
-add_executable(TCP_IP_STACK 
+# Specify the source files
+set(SOURCES
     src/main.cpp
-    src/EthernetLayer.cpp)
+    src/ipheader.cpp
+    src/EthernetLayer.cpp
+)
 
-# Add the include directory
-include_directories(${PROJECT_SOURCE_DIR}/include)
+# Specify the header files
+set(HEADERS
+    include/ipheader.h
+    include/EthernetLayer.h
+)
 
-# Add the source files
+# Add the executable target
+add_executable(TCP_IP_STACK ${SOURCES} ${HEADERS})
+
+target_include_directories(TCP_IP_STACK PRIVATE include)
+
+
 

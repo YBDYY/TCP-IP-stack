@@ -36,7 +36,7 @@ This project is an implementation of a basic TCP/IP stack in C++. It demonstrate
 
 Example Output:
 
-    ```bash
-   Destination MAC: 00:11:22:33:44:55
+    ```bah
+    Destination MAC: 00:11:22:33:44:55
     Source MAC: 66:77:88:99:aa:bb
     EtherType: 800
