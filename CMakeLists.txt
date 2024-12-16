@@ -8,12 +8,14 @@ set(SOURCES
     src/main.cpp
     src/ipheader.cpp
     src/EthernetLayer.cpp
+    src/log_utils.cpp
 )
 
 # Specify the header files
 set(HEADERS
     include/ipheader.h
     include/EthernetLayer.h
+    include/log_utils.h
 )
 
 # Add the executable target

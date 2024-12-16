@@ -1,0 +1,6 @@
+[2024-12-16 20:00:07]Rysys uzmegstas su IP: 192.168.1.1
+Action: Rysys uzmegstas
+IP Address: 192.168.1.1
+Data Sent: 0 bytes
+Data Received: 0 bytes
+----------------------------------------

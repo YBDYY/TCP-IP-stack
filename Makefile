@@ -177,6 +177,30 @@ src/ipheader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_IP_STACK.dir/build.make CMakeFiles/TCP_IP_STACK.dir/src/ipheader.cpp.s
 .PHONY : src/ipheader.cpp.s
 
+src/log_utils.o: src/log_utils.cpp.o
+.PHONY : src/log_utils.o
+
+# target to build an object file
+src/log_utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_IP_STACK.dir/build.make CMakeFiles/TCP_IP_STACK.dir/src/log_utils.cpp.o
+.PHONY : src/log_utils.cpp.o
+
+src/log_utils.i: src/log_utils.cpp.i
+.PHONY : src/log_utils.i
+
+# target to preprocess a source file
+src/log_utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_IP_STACK.dir/build.make CMakeFiles/TCP_IP_STACK.dir/src/log_utils.cpp.i
+.PHONY : src/log_utils.cpp.i
+
+src/log_utils.s: src/log_utils.cpp.s
+.PHONY : src/log_utils.s
+
+# target to generate assembly for a file
+src/log_utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/TCP_IP_STACK.dir/build.make CMakeFiles/TCP_IP_STACK.dir/src/log_utils.cpp.s
+.PHONY : src/log_utils.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -216,6 +240,9 @@ help:
 	@echo "... src/ipheader.o"
 	@echo "... src/ipheader.i"
 	@echo "... src/ipheader.s"
+	@echo "... src/log_utils.o"
+	@echo "... src/log_utils.i"
+	@echo "... src/log_utils.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
